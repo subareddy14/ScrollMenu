@@ -33,7 +33,6 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-//worked
  static NSString * cellIdentifer=@"SideMenuCell";
     SideMenuTableViewCell *sideMenuCell=(SideMenuTableViewCell *)[self.tblView dequeueReusableCellWithIdentifier:cellIdentifer];
     if (sideMenuCell==nil) {
