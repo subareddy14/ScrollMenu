@@ -16,7 +16,7 @@
 @property (strong, nonatomic) UITabBarController *tabBarController;
 
 
-// modfying for git repo
+// modfying for git repo detaBranch
 
 @property (strong, nonatomic) ViewController *firstViewController;
 
